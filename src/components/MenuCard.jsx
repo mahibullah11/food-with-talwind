@@ -8,7 +8,7 @@ function MenuCard({ name, image, price, descripton }) {
         <span className='text-gray-950 text-lg font-semibold'>{name}</span>
         <span className='text-gray-600'>{price}$</span>
         <p className='text-gray-700 text-sm'>{descripton}</p>
-        <button className='py-1 mt-2 w-full sm:w-28 bg-gradient-to-tl from-pink-500 to-pink-600 rounded-md text-white'>
+        <button className='py-1 mt-2 w-full sm:w-28 bg-gradient-to-tl from-pink-600 to-pink-600 rounded-md text-white'>
           Order Now
         </button>
       </div>
