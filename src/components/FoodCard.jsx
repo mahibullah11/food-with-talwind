@@ -1,5 +1,5 @@
 import React from 'react'
-//food
+
 
 function FoodCard({name, images}) {
   return (
